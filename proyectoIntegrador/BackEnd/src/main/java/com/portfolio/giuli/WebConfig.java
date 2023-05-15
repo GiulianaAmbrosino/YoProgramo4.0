@@ -1,3 +1,5 @@
+package com.portfolio.giuli;
+
 //package com.portfolio.giuli;
 
 //import org.springframework.context.annotation.Configuration;

@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.portfolio</groupId>
-    <artifactId>dsm</artifactId>
+    <artifactId>giuli</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>giuli</name>
     <description>Portfolio de giuli</description>

@@ -1,4 +1,4 @@
-package com.portfolio.dsm.Security.Entity;
+package com.portfolio.giuli.Security.Entity;
 
 import java.util.HashSet;
 import java.util.Set;

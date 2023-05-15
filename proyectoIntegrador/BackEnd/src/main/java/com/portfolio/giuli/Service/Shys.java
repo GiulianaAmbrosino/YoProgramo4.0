@@ -1,7 +1,7 @@
-package com.portfolio.dsm.Service;
+package com.portfolio.giuli.Service;
 
-import com.portfolio.dsm.Entity.hys;
-import com.portfolio.dsm.Repository.Rhys;
+import com.portfolio.giuli.Entity.hys;
+import com.portfolio.giuli.Repository.Rhys;
 import java.util.List;
 import java.util.Optional;
 import javax.transaction.Transactional;

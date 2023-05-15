@@ -1,6 +1,6 @@
-package com.portfolio.dsm.Repository;
+package com.portfolio.giuli.Repository;
 
-import com.portfolio.dsm.Entity.hys;
+import com.portfolio.giuli.Entity.hys;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 

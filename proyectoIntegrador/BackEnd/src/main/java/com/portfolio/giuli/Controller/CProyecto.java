@@ -4,10 +4,10 @@
  */
 package com.portfolio.giuli.Controller;
 
-import com.portfolio.dsm.Dto.dtoProyecto;
-import com.portfolio.dsm.Entity.Proyecto;
-import com.portfolio.dsm.Security.Controller.Mensaje;
-import com.portfolio.dsm.Service.SProyecto;
+import com.portfolio.giuli.Dto.dtoProyecto;
+import com.portfolio.giuli.Entity.Proyecto;
+import com.portfolio.giuli.Security.Controller.Mensaje;
+import com.portfolio.giuli.Service.SProyecto;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/proyecto")
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://portfoliodsm.web.app")
+@CrossOrigin(origins = {"http://localhost:4200","https://portfoliodsm.web.app"})
 public class CProyecto {
     @Autowired
     SProyecto sProyecto;

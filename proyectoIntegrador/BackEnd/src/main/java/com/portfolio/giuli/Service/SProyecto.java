@@ -4,8 +4,8 @@
  */
 package com.portfolio.giuli.Service;
 
-import com.portfolio.dsm.Entity.Proyecto;
-import com.portfolio.dsm.Repository.RProyecto;
+import com.portfolio.giuli.Entity.Proyecto;
+import com.portfolio.giuli.Repository.RProyecto;
 import java.util.List;
 import java.util.Optional;
 import javax.transaction.Transactional;
