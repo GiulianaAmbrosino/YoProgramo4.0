@@ -13,6 +13,9 @@ import { NombrePerfilComponent } from './components/nombre-perfil/nombre-perfil.
 import { AboutSectionComponent } from './components/about-section/about-section.component';
 import { ExperienceSectionComponent } from './components/experience-section/experience-section.component';
 import { EducationSectionComponent } from './components/education-section/education-section.component';
+import { SkillsSectionComponent } from './components/skills-section/skills-section.component';
+import { ProyectsSectionComponent } from './components/proyects-section/proyects-section.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +29,9 @@ import { EducationSectionComponent } from './components/education-section/educat
     AboutSectionComponent,
     ExperienceSectionComponent,
     EducationSectionComponent,
+    SkillsSectionComponent,
+    ProyectsSectionComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,98 @@
+.skills-section{
+    margin-bottom: 40px;
+    }
+
+    .skills-section h2 {
+    margin: 0;
+    }
+
+
+    .skills-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    }
+
+    .skills-section ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        }
+        
+        .skills-section ul li {
+        margin-bottom: 5px;
+        }
+        
+        .skills-section .progress-bar {
+        height: 10px;
+        background-color: #007bff;
+        border-radius: 5px;
+        }
+        
+        .skills-section p {
+        margin: 0;
+        font-size: 14px;
+        }
+
+        .skills-section {
+            padding: 80px 0;
+        }
+        
+    
+        .skills-section h2{
+            margin-bottom: 1%;
+        }
+    
+    
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .skill-card{
+        background-color: #f8f8f8;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+
+        .skill-card h3 {
+        margin: 0;
+        margin-top: 20px;
+        }
+
+        .skill-card p {
+        margin: 10px 0;
+        margin-top: 20px;
+        }
+    
+        .skill-card img{
+            width: 60px;
+        }
+        .skill-card {
+            width: 200px;
+            height: 200px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-10px);
+        }
+
+        @keyframes animateSkillBar {
+            0% {
+                width: 0;
+            }
+        }
