@@ -63,11 +63,14 @@
         margin: 0;
         margin-top: 20px;
         }
+        .row {
+            position: relative;
+            width: 10px;
+            height: 20px;
+            display: flex;
+            right: 40px;
+          }
 
-        .skill-card p {
-        margin: 10px 0;
-        margin-top: 20px;
-        }
     
         .skill-card img{
             width: 60px;

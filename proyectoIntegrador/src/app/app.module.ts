@@ -15,6 +15,10 @@ import { ExperienceSectionComponent } from './components/experience-section/expe
 import { EducationSectionComponent } from './components/education-section/education-section.component';
 import { SkillsSectionComponent } from './components/skills-section/skills-section.component';
 import { ProyectsSectionComponent } from './components/proyects-section/proyects-section.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { LoginComponent } from './components/login/login.component';
+
 
 @NgModule({
   declarations: [
@@ -31,11 +35,15 @@ import { ProyectsSectionComponent } from './components/proyects-section/proyects
     EducationSectionComponent,
     SkillsSectionComponent,
     ProyectsSectionComponent,
+    FooterComponent,
+    LoginComponent,
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
+
   ],
   providers: [],
   bootstrap: [AppComponent]
