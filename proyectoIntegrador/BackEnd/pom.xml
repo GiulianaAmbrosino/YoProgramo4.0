@@ -11,8 +11,8 @@
     <groupId>com.portfolio</groupId>
     <artifactId>dsm</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dsm</name>
-    <description>Portfolio de dsm</description>
+    <name>giuli</name>
+    <description>Portfolio de giuli</description>
     <properties>
         <java.version>19</java.version>
     </properties>
