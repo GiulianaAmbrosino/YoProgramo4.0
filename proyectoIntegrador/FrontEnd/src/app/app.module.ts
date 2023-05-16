@@ -17,6 +17,7 @@ import { SkillsSectionComponent } from './components/skills-section/skills-secti
 import { ProyectsSectionComponent } from './components/proyects-section/proyects-section.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { LoginComponent } from './components/login/login.component';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     SkillsSectionComponent,
     ProyectsSectionComponent,
     FooterComponent,
+    LoginComponent,
 
 
   ],
