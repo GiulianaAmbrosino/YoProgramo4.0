@@ -1,0 +1,25 @@
+[debug] [2023-05-16T01:27:41.930Z] ----------------------------------------------------------------------
+[debug] [2023-05-16T01:27:41.931Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Giuliana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-16T01:27:41.931Z] CLI Version:   12.0.0
+[debug] [2023-05-16T01:27:41.931Z] Platform:      win32
+[debug] [2023-05-16T01:27:41.931Z] Node Version:  v18.15.0
+[debug] [2023-05-16T01:27:41.932Z] Time:          Mon May 15 2023 22:27:41 GMT-0300 (hora estándar de Argentina)
+[debug] [2023-05-16T01:27:41.932Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-16T01:27:41.977Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-16T01:27:41.977Z] > authorizing via signed-in user (ambrosinogiuliana1@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Giuliana\Desktop\YoProgramo4.0\proyectoIntegrador\FrontEnd
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
